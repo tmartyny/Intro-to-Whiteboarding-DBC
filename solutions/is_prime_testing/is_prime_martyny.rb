@@ -1,7 +1,7 @@
 class PrimeNum
   attr_reader :number
   def initialize(args)
-    @number = args[:number]
+    @number = args.fetch(:number, 0)
   end
   # if they are larger than the sqrt of number, they are redundant
   def highest_possible_factor
