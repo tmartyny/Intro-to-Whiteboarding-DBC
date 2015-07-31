@@ -28,20 +28,3 @@ class PrimeNum
     true
   end
 end
-
-test2 = PrimeNum.new(number: 2)
-p test2.is_prime? == true
-test3 = PrimeNum.new(number: 6)
-p test3.is_prime? == false
-test4 = PrimeNum.new(number: 541)
-p test4.is_prime? == true #big prime
-test5 = PrimeNum.new(number: 461)
-p test5.is_prime? == true #big prime
-test6 = PrimeNum.new(number: 542)
-p test6.is_prime? == false
-
-
-
-
-
-
